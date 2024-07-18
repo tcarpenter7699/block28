@@ -1,0 +1,150 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#container > div {
+  display: flex;
+}
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+#main-section {
+  flex-grow: 1;
+}
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  background-color: #b05f6d;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.blue {
+  background-color: #275db3;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.green {
+  background-color: green;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.orange {
+  background-color: orange;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.purple {
+  background-color: purple;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.pink {
+  background-color: pink;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.home {
+  background-color: beige;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+#footer {
+  justify-content: space-evenly;
+  display: flex;
+  background-color: green;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  padding-top: 30px;
+}
+#appbar {
+  background-color: white;
+  color: navy;
+  box-shadow: none;
+  justify-content: space-evenly;
+  position: fixed;
+}
+
+#sidebar {
+  min-width: 400px;
+}
+
+#list {
+  margin: auto;
+  width: 50%;
+}
+
+#drawer {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+h3 {
+  color: navy;
+  font-size: 54px;
+}
+.rest {
+  margin-top: 30px;
+}
+.restb {
+  margin-bottom: 20px;
+}
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: orangered;
+}
+#listeditems {
+  text-decoration: none;
+}
